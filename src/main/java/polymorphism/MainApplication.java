@@ -7,10 +7,6 @@ import java.util.Scanner;
 public class MainApplication {
     public static void main(String[] args) {
 
-        Pets pet1 = new Cat("batman");
-        Pets pet2 = new Dog("raven");
-        Pets pet3 = new Rabbit("midnight");
-
         Scanner pets = new Scanner(System.in);
         List<Pets>listOfPets = new ArrayList<>();
         System.out.println("how many pets do you have : ");
