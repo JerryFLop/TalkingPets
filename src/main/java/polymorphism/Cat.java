@@ -6,8 +6,8 @@ public class Cat extends Pets{
     }
 
     @Override
-    public void printspeak() {
-        System.out.println("Meow Meow");
+    public String printspeak() {
+        return "Meow Meow";
     }
 }
 

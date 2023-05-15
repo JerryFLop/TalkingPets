@@ -6,7 +6,8 @@ public class Rabbit extends Pets{
     }
 
     @Override
-    public void printspeak() {
-        System.out.println("Honk ,honk,cluck , cluck");
+    public String printspeak() {
+
+        return "Honk ,honk,cluck , cluck";
     }
 }

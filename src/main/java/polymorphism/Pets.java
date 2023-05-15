@@ -16,7 +16,9 @@ public abstract class Pets {
         this.name = name;
     }
 
-    public abstract void printspeak();
+    public String printspeak() {
+        return ""  ;
+    }
 
 
 }
